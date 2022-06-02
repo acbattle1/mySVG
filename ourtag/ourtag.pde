@@ -10,7 +10,7 @@ String lastTag;
 boolean gameOver;
 
 void setup() {
-  size(800, 800);
+  fullScreen(P2D);
   gameServer = null;
   players = new Players();
   settingUp = true;
